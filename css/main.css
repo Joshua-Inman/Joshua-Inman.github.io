@@ -15,6 +15,17 @@ a {
   margin-top: 125px;
 }
 
+.display-5 {
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #E00B46;
+}
+
+.display-5 a:hover {
+  color: #E00B46;
+}
+
 /* Navigation */
 .navbar-brand {
   font-size: 1.5em;
@@ -44,20 +55,19 @@ a {
 
 .jumbotron h1 {
   color: white;
-  text-shadow: 6px 0px #2a2a2a;
-  font-family: 'Roboto', sans-serif;
+  text-shadow: 6px 2px #2a2a2a;
+  font-family: 'Pacifico', cursive;
 }
 
 .jumbotron p {
   font-size: 1.5em;
   color: white;
-  font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron i {
   color: #2a2a2a;
   font-size: 4em;
-  margin-right: 0.25em
+  margin-right: 0.5em
 }
 
 .jumbotron i:hover {

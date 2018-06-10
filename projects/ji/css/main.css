@@ -1,0 +1,462 @@
+/*********** General **********/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eee;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+	font-size: 2em;
+	color: #FF404E;
+	font-family: "Pacifico";
+	text-shadow: 1px 1px 1px #303030;
+}
+
+p {
+	margin-bottom: 25px;
+}
+
+a {
+	color: #1CA5B8;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+::selection {
+	background-color: #1CA5B8;
+	color: #fff;
+}
+
+::-moz-selection {
+	background-color: #1CA5B8;
+	color: #fff;
+}
+
+
+
+/*********** Universal **********/
+.main-container {
+	width: 85%;
+	margin: 25px auto;
+}
+
+.main-section {
+	background-color: #fff;
+	margin-bottom: 25px;
+	padding: 20px;
+	box-shadow: 2px 2px 10px #888;
+	border-radius: 5px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+
+
+/*********** Keyframes/Transitions **********/
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	
+	to {
+		opacity: 1;
+	}
+}
+
+.fade-in {
+	animation: fadeIn 2500ms;
+	-webkit-animation: fadeIn 2500ms;
+	-moz-animation: fadeIn 2500ms;
+}
+
+
+
+/*********** Header/Navigation **********/
+#header-main {
+	background-color: #fff;
+	box-shadow: 1px 1px 5px #888888;
+	border-bottom: 1px solid #202020;
+}
+
+#header-main::after {
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+#header-container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+#header-drawer {
+	float: left;
+	margin: 15px 0 15px 0;
+}
+
+#header-logo-img {
+	margin: 0 5px 2px 0;
+}
+
+#header-logo-text {
+	color: #012D41;
+	text-decoration: none;
+	font-family: "Pacifico";
+	font-size: 3em;
+}
+
+#header-logo-text:hover {
+	text-decoration: none;
+}
+
+#header-subheading {
+	display: inline-block;
+	margin: 0 0 0 15px;
+	font-size: 1.2em;
+	font-family: "pacifico";
+	color: #1CA5B8;
+}
+
+#main-nav {
+	float: right;
+}
+
+#main-nav ul li {
+	display: inline-block;
+	margin: 0 10px 0 10px;
+}
+
+#main-nav ul li a {
+	padding: 15px 20px;
+	font-size: 1.2em;
+	color: #012D41;
+	text-decoration: none;
+	line-height: 115px;
+}
+
+#main-nav ul li a:hover {
+	background-color: #1CA5B8;
+	border-radius: 5px;
+	color: #fff;
+	box-shadow: 1px 1px 5px #888888;
+}
+
+#main-nav ul li .active {
+	background-color: #1CA5B8;
+	border-radius: 5px;
+	color: #fff;
+	box-shadow: 1px 1px 5px #888888;
+}
+
+
+
+/*********** Canvas/Splash **********/
+.canvas-container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+#canvas {
+	width: 100%;
+	display: block;
+}
+
+#canvas-subheading {
+ position: relative;
+ margin: -23% auto 0 auto;
+ display: block;
+}
+
+
+
+/*********** About **********/
+#about-myself-heading {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+#about-myself-img {
+	box-shadow: 4px 4px 14px #888;
+	border-radius: 5px;
+	max-width: 30%;
+	margin: 15px 20px 15px 0;
+	float: left;
+}
+
+.about-column-container {
+	background-color: #fff;
+	margin: 0 auto 25px auto;
+	padding: 20px;
+	box-shadow: 2px 2px 10px #888;
+	border-bottom: 1px solid #303030;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.about-column {
+	width: 40%;
+	display: inline-block;
+	padding: 20px;
+}
+
+.about-column img {
+	max-width: 60%;
+	border: 1px solid #888;
+	box-shadow: 0px 0px 8px #888;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	background-color: #eee;
+	padding: 5px;
+}
+
+
+
+/*********** Work/Projects **********/
+#work-heading {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+#work-subheading {
+	font-size: 1.2em;
+	color: #1CA5B8;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#work-img-container {
+	text-align: center;
+}
+
+#oji {
+	box-shadow: 4px 4px 14px #888;
+	border-radius: 5px;
+	max-width: 25%;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+
+#tgl {
+	box-shadow: 4px 4px 14px #888;
+	border-radius: 5px;
+	max-width: 25%;
+	margin: 0 50px 25px 50px;
+	margin-top: 10px;
+}
+
+#ptc {
+	box-shadow: 4px 4px 14px #888;
+	border-radius: 5px;
+	max-width: 25%;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+
+.work-projects-container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.work-projects {
+	display: inline-block;
+	margin: 15px 35px;
+	width: 500px;
+}
+
+.work-projects-container h2 {
+	font-size: 1.8em;
+}
+
+.work-projects-container p {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
+
+.work-projects-container a {
+	font-size: 1.2em;
+}
+
+
+
+/*********** Contact **********/
+#contact-heading {
+	font-size: 2.5em;
+	text-align: center;
+	margin: 0;
+	text-shadow: 1px 1px 1px #303030;
+}
+
+#contact-subheading {
+	font-size: 1.2em;
+	color: #1CA5B8;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+form {
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.4em;
+	color: #444;
+}
+
+input {
+	width: 50%;
+	display: inline-block;
+	height: 43px;
+	padding: 10px 18px;
+	font-size: 1.3em;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px #888888;
+}
+
+input:focus {
+	outline: none;
+}
+
+#bitmoji1 {
+	display: block;
+	width: 13em;
+	margin: 0 auto;
+}
+
+#bitmoji2 {
+	display: block;
+	width: 13em;
+	margin: 0 auto;
+}
+
+textarea {
+	display: block;
+	width: 95%;
+	height: 125px;
+	padding: 10px 18px;
+	font-size: 1em;
+	font-family: Arial;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px #888888;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+button {
+	background-color: #FF404E;
+	border: 1px solid #303030;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 3px;
+	font-weight: bold;
+	box-shadow: 1px 1px 2px #888888;
+	transition: 250ms;
+	font-size: 1em;
+}
+
+button:hover {
+	background-color: white;
+	border: 1px solid #FF404E;
+	color: #FF404E;
+	text-decoration: none;
+	transition: 250ms;
+}
+
+button:focus {
+	outline: none;
+}
+
+.contact-group {
+	margin-bottom: 15px;
+}
+
+.alert {
+	width: 75%;
+	padding: 15px;
+	margin: 25px auto;
+	border: 1px solid #303030;
+	box-shadow: 1px 1px 2px #888888;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.alert-error {
+	background-color: #FF404E;
+	color: #ffffff;
+}
+
+.alert-success {
+	background-color:#3fb618;
+	color:#ffffff;
+}
+
+
+
+/*********** Footer **********/
+#main-footer {
+	width: 85%;
+	text-align: center;
+	font-size: .85em;
+	background-color: #fff;
+	margin: 25px auto;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #888888;
+	overflow: hidden;
+}
+
+#main-footer p {
+	padding: 5px;
+	font-style: italic;
+	margin-bottom: 0px;
+}
+
+#main-footer a {
+	text-decoration: none;
+}
+
+#main-footer img {
+	margin: 0 12px;
+}
+
+
+
+/* Website color palette:
+Main article background: #fff (Pure white.)
+Background: #eee (Light white.)
+Box/text shadows & borders: #888 (Lightest gray.) & #303030 (Dark gray.)
+font: #444 (Light gray.)
+
+Headings: #FF404E (My red.)
+Links:    #1CA5B8 (My blue.)
+Other:    #012D41 (My Dark blue.)
+          #DAECF3 (My Light blue.)
+*/
+
+
+
+/* Copyright © 2018 Joshua Inman 
+All rights reserved. */

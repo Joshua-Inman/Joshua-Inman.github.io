@@ -1,0 +1,392 @@
+/* General */
+* {
+	margin-top: auto;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: georgia;
+	background-color: #fff;
+	color: #757575;
+}
+
+.date {
+	font-weight: bold;
+}
+
+.fade-in {
+	-webkit-animation: fadeIn 750ms;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	
+	to {
+		opacity: 1;
+	}
+}
+
+.fade-in1 {
+	-webkit-animation: fadeIn 750ms;
+}
+
+.fade-in2 {
+	-webkit-animation: fadeIn 1000ms;
+}
+
+.fade-in3 {
+	-webkit-animation: fadeIn 1250ms;
+}
+
+
+
+/* Links */
+#nav a {
+	color: deepskyblue;
+}
+
+#nav a:hover {
+	color: lightskyblue;
+}
+
+.primary-content a, .about-primary-content a {
+	color: deepskyblue;
+	font-style: italic;
+}
+
+.primary-content a:hover, .about-primary-content a:hover {
+	color: lightskyblue;
+	font-style: italic;
+}
+
+.contact-details a {
+	color: #8e8e8e;
+}
+
+
+
+/* Header */
+#main-header {
+	background-color: #f3f3f3;
+	margin: 0 auto;
+	width: 100%;
+	border-bottom: 1px solid deepskyblue;
+	/*background: url(../img/background.jpg);*/
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 4em;
+	margin-bottom: 0;
+	padding-bottom: 14px;
+	color: deepskyblue;
+	text-shadow: 2px 2px 2px #888888;
+}
+
+#title {
+	color: deepskyblue;
+	text-decoration: none;
+}
+
+#title:hover {
+	color: lightskyblue;
+}
+
+#logo {
+	width: 150px;
+	display: block;
+	float: inherit;
+	margin: 0 auto;
+	margin-bottom: -134px;
+	padding-right: 700px;
+	margin-top: -10px;
+}
+
+#nav {
+	display: block;
+	text-align: center;
+}
+
+#nav ul {
+	list-style: none;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#nav ul li {
+	display: inline-block;
+	padding: 0 8px;
+}
+
+
+
+/* Page: Home */
+.primary-content {
+	width: 70%;
+	/* width: 1336px; */
+	margin: 25px auto;
+	text-align: left;
+	background-color: #f3f3f3;
+	border-bottom: 2px solid deepskyblue;
+	box-shadow: 0px 0px 3px #888888;
+}
+
+.primary-content p {
+	padding: 0 10px 10px 10px;
+}
+
+h2 {
+	color: #00bfff;
+	padding-left: 1%;
+	padding-top: 1%;
+	text-shadow: .5px .5px darkgrey;
+	font-size: 1.4em;
+}
+
+
+
+/* Page: About */
+.about-primary-content {
+	width: 1024px;
+	margin: 25px auto;
+	background-color: #f3f3f3;
+	border-bottom: 2px solid deepskyblue;
+	box-shadow: 0px 0px 3px #888888;
+}
+
+.about-primary-content h2 {
+	font-size: 1.6em;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	color: #00bfff;
+}
+
+.about-primary-content p {
+	padding: 0 10px 10px 10px;
+}
+
+.about-primary-content img.me {
+	width: 75%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0 0;
+	border-radius: 20px;
+	border: 2px solid deepskyblue;
+}
+
+#about-container {
+	overflow: auto;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+#about-container p {
+	padding: 0 10px;
+	margin-top: 0;
+}
+
+#about-container h2 {
+	font-size: 1.5em;
+	padding: 0 0;
+	margin: 12px 0;
+	text-align: center;
+}
+
+#about-container .column1 {
+	width: 48%;
+	margin: 0 0;
+	float: left;
+	background-color: #f3f3f3;
+	border-bottom: 2px solid deepskyblue;
+	box-shadow: 0px 0px 3px #888888;
+}
+
+#about-container .column1-img {
+	width: 90%;
+	height: auto;
+	margin: 0 5%;
+	margin-bottom: 3%;
+	border-radius: 10px;
+	border: 2px solid deepskyblue;
+}
+
+#about-container .column2 {
+	width: 48%;
+	margin: 0 0;
+	float: right;
+	background-color: #f3f3f3;
+	border-bottom: 2px solid deepskyblue;
+	box-shadow: 0px 0px 3px #888888;
+}
+
+#about-container .column2-img {
+	width: 90%;
+	height: auto;
+	margin: 0 4%;
+	margin-bottom: 3%;
+	border-radius: 10px;
+	border: 2px solid deepskyblue;
+}
+
+#tth {
+	color: #62d262;
+	
+}
+
+#tth:hover {
+	color: #96e196;
+}
+
+
+
+/* Page: Contact */
+#contact-container {
+	max-width: 52.5%;
+  margin: 25px auto;
+	padding: 0 10px;
+	background-color: #f3f3f3;
+	display: flex;
+	border-bottom: 2px solid deepskyblue;
+	box-shadow: 0px 0px 3px #888888;
+}
+
+#contact-container p {
+	padding-left: 10px;
+}
+
+#contact-container .column1 {
+flex: 1;
+padding: 0 10px;
+}
+
+#contact-container .column2 {
+flex: 0;
+padding-right: 10px;
+padding-left: 50px;
+margin-top: 8px;
+}
+
+.column1 img.lang {
+	width: 300px;
+	height: 165px;
+}
+
+.column2 img.gmail {
+	width: 150px;
+	height: 165px;
+	padding-left: 10px;
+}
+
+ul.contact-info {
+	padding-left: 25px;
+}
+
+ul.contact-info a {
+  display: inline-block;
+	text-decoration: none;
+  min-height: 30px;
+	color: deepskyblue;
+	margin-bottom: 10px;
+}
+
+ul.contact-info a:hover {
+	color: lightskyblue;
+}
+
+#secret {
+	text-decoration: none;
+	color: #757575;
+}
+
+#secret:hover {
+	color: #F1BF26;
+	font-style: oblique;
+}
+
+
+
+/* Page: Changelog */
+.changelog-primary-content {
+	width: 1024px;
+	margin: 25px auto;
+	text-align: left;
+	background-color: #f3f3f3;
+	border-bottom: 2px solid deepskyblue;
+	box-shadow: 0px 0px 3px #888888;
+}
+
+.changelog-primary-content h3 {
+	text-decoration: underline;
+	color: #F36;
+	padding: 20px;
+	margin: 0;
+}
+
+.changelog-primary-content p {
+	padding: 0 20px;
+}
+
+.changelog-primary-content ul {
+	margin: 0;
+}
+
+
+
+/* Footer */
+footer {
+	clear: both;
+	text-align: center;
+	font-size: .85em;
+	background-color: #f3f3f3;
+	margin: 25px auto 20px;
+	/*width: 1336px;*/
+	width: 70%;
+	border-bottom: 2px solid deepskyblue;
+	box-shadow: 0px 0px 5px #888888;
+}
+
+footer p {
+	margin: 0;
+	padding: 5px 0;
+	
+}
+
+footer a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+img.youtube {
+	margin: 0 9px;
+}
+
+img.discord {
+	margin: 0 9px;
+}
+
+img.github {
+	margin: 0 9px;
+}
+
+img.twitter {
+	margin: 0 9px;
+}
+
+img.instagram {
+	margin: 0 9px;
+}
+
+a.top {
+	color: deepskyblue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* Copyright © 2017 Joshua Inman 
+All rights reserved. */

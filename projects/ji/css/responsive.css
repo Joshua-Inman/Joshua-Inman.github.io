@@ -1,0 +1,99 @@
+@media (max-width: 1440px) {
+  /*********** Header/Navigation **********/
+  #header-main {
+    text-align: center
+  }
+
+  #header-drawer {
+    float: none;
+    display: block;
+    margin: 0;
+  }
+
+  #header-subheading {
+    display: block;
+    margin: -10px 0 25px 0;
+  }
+
+  #main-nav {
+    float: none;
+    display: block;
+  }
+
+  #main-nav ul {
+    margin: 10px 0 30px 0;
+  }
+
+  #main-nav ul li a {
+    padding: 15px 20px;
+    font-size: 1.2em;
+    color: #012D41;
+    text-decoration: none;
+    line-height: normal;
+  }
+}
+
+
+
+@media (max-width: 990px) {  
+  #header-logo-img {
+    margin: 10px 0 0 0;
+  }
+
+  /*********** Canvas **********/
+  .canvas-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #canvas-subheading {
+    position: relative;
+    margin: -30% auto 0 auto;
+    display: block;
+    width: 15em;
+   }
+
+  /*********** About **********/
+  #about-myself-img {
+  	max-width: 75%;
+    display: block;
+  	float: none;
+  	margin: 5px auto 15px auto;
+  }
+  
+  .about-column img {
+  	max-width: 100%;
+  	margin-bottom: 15px;
+  	padding: 5px;
+  }
+
+   /*********** Work **********/
+   .work-projects {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+  }
+
+  #oji {
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+  }
+
+  #tgl {
+    display: block;
+    margin: 20px auto;
+    max-width: 75%;
+  }
+
+  #ptc {
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+  }
+
+  /*********** Contact **********/
+  input {
+    width: 95%;
+  }
+}

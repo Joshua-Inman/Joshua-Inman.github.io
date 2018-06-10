@@ -1,0 +1,61 @@
+/* iphone 6s Plus */
+@media (max-width: 414px) {
+  
+  header {
+    width: 100%;
+  }
+  
+  #logo {
+    display: none;
+  }
+  
+  .primary-content {
+    width: 90%;
+  }
+  
+  .about-primary-content {
+    width: 90%;
+  }
+  
+  #about-container {
+    width: 89%;
+  }
+  
+  #about-container h2 {
+    font-size: 1.1em;
+  }
+  
+  .column2 {
+    height: 307px;
+  }
+
+  #contact-container {
+    display: inherit;
+    max-width: 80%;
+  }
+  
+  #contact-container h2 {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  #contact-container .column2 {
+    padding: 0;
+  }
+
+  .column2 img.gmail {
+    padding-left: 17px;
+    margin: 0 auto;
+    width: 45%;
+    height: 50%;
+  }
+
+  .changelog-primary-content {
+    width: 90%;
+  }
+
+  footer {
+    width: 100%;
+  }
+  
+}
