@@ -1,30 +1,17 @@
 /* General styling */
-h1 {
-  color: #2a2a2a;
-}
-
-p {
-  color: #2a2a2a;
-}
-
 a {
-  color: #E00B46;
+  color: #3184B8;
+}
+
+a:hover {
+  color: #3184B8;
 }
 
 .row {
   margin-top: 125px;
 }
 
-.display-5 {
-  font-size: 1.25em;
-  font-weight: 300;
-  line-height: 1.2;
-  color: #E00B46;
-}
 
-.display-5 a:hover {
-  color: #E00B46;
-}
 
 /* Navigation */
 .navbar-brand {
@@ -32,30 +19,16 @@ a {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar-expand .navbar-nav .nav-link {
-  padding: 0 1em;
-}
 
-nav a {
-  color: #2a2a2a;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #E00B46;
-}
 
 /* Jumbotron */
 .jumbotron {
-  background-color: #E00B46;
-  text-align: center;
-  /* background: url(../img/test.jpg); */
-  /* background-size: cover; */
+  background-color: #3184B8;
 }
 
 .jumbotron h1 {
   color: white;
-  text-shadow: 6px 2px #2a2a2a;
+  text-shadow: 5px 5px #2a2a2a99;
   font-family: 'Pacifico', cursive;
 }
 
@@ -65,38 +38,56 @@ nav a:hover {
 }
 
 .jumbotron i {
-  color: #2a2a2a;
   font-size: 4em;
-  margin-right: 0.5em
+  color: #2a2a2a;
+  margin: 0 0.25em;
+  text-shadow: 5px 5px #2a2a2a38;
 }
 
 .jumbotron i:hover {
   color: white;
 }
 
+
+
+/* Projects */
+.display-5 {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+
+
 /* Conact */
+#contact {
+  text-align: center;
+}
+
 .btn-mine {
-  color: #E00B46;
+  color: #3184B8;
   background-color: transparent;
   background-image: none;
-  border-color: #E00B46;
+  border-color: #3184B8;
 }
 
 .btn-mine:hover {
-  background-color: #E00B46;
+  background-color: #3184B8;
   color: white;
 }
 
+
+
 /* Footer */
 footer {
+  margin-top: 125px;
   text-align: center;
-  background-color: #E00B46;
+  background-color: #3184B8;
 }
 
 footer p {
   color: white;
-  padding: 15px;
-  margin: 125px 0 0 0;
+  margin: 0 0 0 0;
+  padding: 0 0 15px 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -110,7 +101,7 @@ footer a:hover {
 
 footer i {
   color: #2a2a2a;
-  margin: 0 12px 15px 12px;
+  margin: 15px 15px 10px 15px;
   font-size: 1.5em;
 }
 
@@ -118,12 +109,15 @@ footer i:hover {
   color: white;
 }
 
-  @media (max-width: 767.98px) {
-    .container {
-      text-align: center;
-    }
 
-    .navbar-nav {
-      text-align: left;
-    }
+
+/* Media Queries */
+@media (max-width: 767.98px) {
+  .container {
+    text-align: center;
   }
+
+  .navbar-nav {
+    text-align: left;
+  }
+}
