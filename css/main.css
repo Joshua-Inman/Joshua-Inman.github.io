@@ -1,4 +1,8 @@
 /* General styling */
+p {
+  font-weight: 300;
+}
+
 a {
   color: #3184B8;
 }
@@ -7,8 +11,9 @@ a:hover {
   color: #3184B8;
 }
 
-.row {
-  margin-top: 125px;
+.display-5 {
+  font-size: 1.25em;
+  font-weight: 300;
 }
 
 
@@ -52,17 +57,47 @@ a:hover {
 
 
 
+/* About */
+#about-container {
+  margin-top: 125px;
+}
+
+
 /* Projects */
-.display-5 {
-  font-size: 1.25em;
-  font-weight: 300;
+#projects-container {
+  margin-top: 125px;
+}
+
+
+/* Illustrations */
+#illustrations-container {
+  margin-top: 125px;
+}
+
+#illustrations-container h1 {
+  text-align: center;
+}
+
+#illustrations-container h2 {
+  text-align: center;
+  color: #3184B8;
+}
+
+#illustrations-container p {
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 
 
 /* Conact */
-#contact {
+#contact-container {
+  margin-top: 125px;
   text-align: center;
+}
+
+#contact-container h2 {
+  color: #3184B8;
 }
 
 .btn-mine {
