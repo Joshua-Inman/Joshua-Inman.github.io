@@ -38,8 +38,7 @@ a:hover {
 
 .jumbotron h1 {
   color: white;
-  text-shadow: 5px 5px rgba(42, 42, 42, 0.6);
-  font-family: 'Pacifico', cursive;
+  text-shadow: 3px 3px rgba(42, 42, 42, 0.6);
 }
 
 .jumbotron p {
@@ -126,12 +125,12 @@ a:hover {
   color: white;
   background-color: transparent;
   background-image: none;
-  border-color: #3184B8;
   background-color: #3184B8;
 }
 
 .btn-mine:hover {
   background-color: white;
+  border-color: #3184B8;
   color: #3184B8;
 }
 
@@ -148,7 +147,6 @@ footer p {
   color: white;
   margin: 0 0 0 0;
   padding: 0 0 15px 0;
-  font-family: 'Roboto', sans-serif;
 }
 
 footer a {
