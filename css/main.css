@@ -15,16 +15,14 @@ a:hover {
   text-decoration: none;
 }
 
+h1.display-4 {
+  color: #414141;
+}
+
 h2.display-5 {
   font-size: 1.5em;
   font-weight: 300;
 }
-
-h1.display-4 {
-  color: #414141;
-  font-weight: 300;
-}
-
 
 .spacer {
   text-align: center;
@@ -36,15 +34,6 @@ i.far.fa-circle {
   text-align: center;
   color: rgba(0,0,0,0.5);
   margin: 0 15px;
-}
-
-
-
-/* Navigation */
-.navbar-light .navbar-brand {
-  font-size: 1.25em;
-  color: rgba(0,0,0,.7);
-  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -81,6 +70,7 @@ i.far.fa-circle {
 /* About */
 #about-container {
   margin-top: 80px;
+  border-right: 2px solid #eee;
 }
 
 
@@ -88,19 +78,11 @@ i.far.fa-circle {
 /* Projects */
 #projects-container {
   margin-top: 80px;
+  border-left: 2px solid #eee;
 }
 
 #projects-container h1.display-4 {
   margin-bottom: 15px;
-}
-
-#projects-container a {
-  transition: 150ms ease-in-out;
-}
-
-#projects-container a:hover {
-  background-color: #00abff;
-  color: white;
 }
 
 
@@ -152,9 +134,8 @@ i.far.fa-circle {
 
 .btn-mine {
   color: white;
-  background-color: transparent;
-  background-image: none;
   background-color: #00abff;
+  font-size: 1.1em;
 }
 
 .btn-mine:hover {
@@ -175,8 +156,7 @@ footer {
 footer p {
   color: white;
   margin: 0 0 0 0;
-  padding: 0 0 20px 0;
-  font-weight: normal;
+  padding: 0 0 18px 0;
 }
 
 footer a {
@@ -186,18 +166,62 @@ footer a {
 footer a:hover {
   color: white;
   text-decoration-line: underline;
-}
+} 
 
 footer i {
   color: #323232;
-  margin: 20px 15px 10px 15px;
-  font-size: 2em;
+  margin: 18px 15px 10px 15px;
+  font-size: 1.8em;
   transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 footer i:hover {
   color: white;
   transform: scale(1.2);
+}
+
+
+
+/* Effects */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	
+	to {
+		opacity: 1;
+	}
+}
+
+.fade-in {
+	animation: fadeIn 2500ms;
+	-webkit-animation: fadeIn 2500ms;
+	-moz-animation: fadeIn 2500ms;
+}
+
+.link-underline {
+  position: relative;
+}
+
+.link-underline:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #00abff;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.link-underline:hover:before, .link-underline:focus:before, .link-underline:active:before {
+  right: 0;
 }
 
 
