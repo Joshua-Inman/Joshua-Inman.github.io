@@ -78,6 +78,8 @@ h2.display-5 {
 /* Illustrations */
 #illustrations-container {
   margin-top: 80px;
+  border-left: 2px solid #eee;
+  border-right: 2px solid #eee;
 }
 
 #illustrations-container h1 {
@@ -113,6 +115,8 @@ h2.display-5 {
 #contact-container {
   margin-top: 80px;
   text-align: center;
+  border-left: 2px solid #eee;
+  border-right: 2px solid #eee;
 }
 
 #contact-container h2 {
@@ -122,14 +126,19 @@ h2.display-5 {
 
 .btn-mine {
   color: white;
-  background-color: #00abff;
-  font-size: 1.1em;
+  background-image: linear-gradient(to bottom left,#006eff 0,#009cff 50%,#00abff 100%);
+  font-size: 1.4em;
+  padding: .5em 1.5em; 
+  margin-top: 16px;
+  margin-bottom: 2px;
+  box-shadow: #323232;
 }
 
 .btn-mine:hover {
-  background-color: white;
-  border-color: #00abff;
+  background-image: linear-gradient(to top,#fff 0,#fff 100%);
+  border: 2px solid #00abff;
   color: #00abff;
+  margin-bottom: 0;
 }
 
 
