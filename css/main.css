@@ -24,6 +24,20 @@ h2.display-5 {
   font-weight: 300;
 }
 
+.vertical-align {
+  margin: auto;
+}
+
+ ::selection {
+  background:rgba(255,245,20,.8);
+  color:#111;
+ }
+
+ ::-moz-selection {
+  background:rgba(255,245,20,.8);
+  color:#111;
+ }
+
 
 
 /* Jumbotron */
