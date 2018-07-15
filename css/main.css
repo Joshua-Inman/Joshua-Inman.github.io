@@ -239,16 +239,25 @@ footer i:hover {
 
 /* Media Queries */
 @media (max-width: 767.98px) {
+  h1.display-2 {
+    font-size: 5em;
+  }
+
+  p.lead {
+    font-size: 1.2em;
+  }
+
   .container {
     text-align: center;
   }
 
-  .navbar-nav {
-    text-align: left;
+  #about-container {
+    margin-top: 40px;
   }
 
   #about-container img {
-    max-width: 80%;
+    max-width: 60%;
+    margin-bottom: 20px;
   }
 
   #projects-container img {
@@ -256,7 +265,7 @@ footer i:hover {
   }
 
   #illustrations-container img {
-    max-width: 75%;
+    max-width: 60%;
   }
 
   #illustrations-container img.artwork2 {
